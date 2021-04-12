@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	font-family: Google Sans, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace
+}
+.App {
+	text-align: center
+}
+.App-header {
+	background-color: #000;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: #fff
+}
+h1 {
+	font-weight: 200
+}
+.cycle {
+	animation: pre-cycle 2s 1, colorchange 60s ease-in-out 2s infinite;
+	-webkit-animation: pre-cycle 2s 1, colorchange 60s ease-in-out 2s infinite
+}
+@-webkit-keyframes pre-cycle {
+	0% {
+		background: #000000
+	}
+	to {
+		background: #000000
+	}
+}
+@keyframes pre-cycle {
+	0% {
+		background: #000000
+	}
+	to {
+		background: #000000
+	}
+}
+@keyframes colorchange {
+	0% {
+		background: #000000
+	}
+	25% {
+		background: #000000
+	}
+	45% {
+		background: #000000
+	}
+	65% {
+		background: #000000
+	}
+	85% {
+		background: #000000
+	}
+	to {
+		background: #000000
+	}
+}
+@-webkit-keyframes colorchange {
+	0% {
+		background: #000000
+	}
+	25% {
+		background: #000000
+	}
+	45% {
+		background: #000000
+	}
+	65% {
+		background: #000000
+	}
+	85% {
+		background: #000000
+	}
+	to {
+		background: #000000
+	}
+}
+/*# sourceMappingURL=main.4bccbfbf.chunk.css.map */
