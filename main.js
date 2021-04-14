@@ -13,13 +13,13 @@
 			s = t.n(c);
 		s()(document).ready(function() {
 			s()("h1").fadeOut(0, function() {
-				s()(this).html('hello')
+				s()(this).html('looking for me?')
 			}), s()("h1").fadeToggle(1e3, function() {
 				s()(this).delay(3e3).fadeToggle(1e3, function() {
-					s()(this).text("looking for me?"), s()(this).fadeToggle(1e3).delay(3e3).fadeToggle(1e3, function() {
+					
 						s()(".App-header").addClass("cycle"), s()(this).html("<a href='https://drgn.social/@eric' style='text-decoration: none;color: #fff'>social</a> <br> <a href='https://matrix.to/#/@eric:drgn.im?action=chat' style='text-decoration: none;color: #fff'>matrix</a> <br> <a href='mailto:hello@drgn.email' style='text-decoration: none;color: #fff'>email</a>"), s()(this).fadeToggle(1e3)
 					})
-				})
+				
 			})
 		});
 		var l = function() {
