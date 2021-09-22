@@ -17,7 +17,7 @@
 			}), s()("h1").fadeToggle(1e3, function() {
 				s()(this).delay(3e3).fadeToggle(1e3, function() {
 					
-						s()(".App-header").addClass("cycle"), s()(this).html("<a href='https://matrix.to/#/@eric:drgn.im?action=chat' style='text-decoration: none;color: #fff' target='_blank'>matrix</a> <br> <a href='mailto:hello@drgn.email' style='text-decoration: none;color: #fff'>email</a> <br> <a href='https://linkedin.com/in/ericdrgn/' style='text-decoration: none;color: #fff' target='_blank'>linkedin</a> "), s()(this).fadeToggle(1e3)
+						s()(".App-header").addClass("cycle"), s()(this).html("<a href='https://matrix.to/#/@eric:drgn.im?action=chat' style='text-decoration: none;color: #fff' target='_blank'>matrix</a> <br> <a href='mailto:hello@drgn.email' style='text-decoration: none;color: #fff'>email</a> <br> <a href='https://linkedin.com/in/ericdrgn/' style='text-decoration: none;color: #fff' target='_blank'>linkedin</a> <br> <a style='text-decoration: none;color: #fff' target='_blank'>@ericdrgn everywhere else</a>"), s()(this).fadeToggle(1e3)
 					})
 				
 			})
